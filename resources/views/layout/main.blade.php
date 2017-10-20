@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>laravel for blog</title>
+    <title>上海天楹环境</title>
    	<link rel="stylesheet" type="text/css" href="/css/app.css">
     <link href="/css/blog.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/css/wangEditor.min.css">
