@@ -10,6 +10,7 @@
     <meta name="author" content="">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>上海天楹环境</title>
+    <link rel="Shortcut Icon" href="{{ asset('storage/shortIcon.jpeg') }}" type="image/x-icon">
    	<link rel="stylesheet" type="text/css" href="/css/app.css">
     <link href="/css/blog.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/css/wangEditor.min.css">
