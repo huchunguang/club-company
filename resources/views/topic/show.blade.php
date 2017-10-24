@@ -45,7 +45,7 @@
                             <p class=""><a href="/user/{{$post->user_id}}">{{$post->user->name}}</a> {{$post->created_at->diffForHumans()}}</p>
                             <p class=""><a href="/posts/{{$post->id}}" >{{$post->title}}</a></p>
 
-                            <p>{!! str_limit($post->content, 100, '...') !!}</p>
+                            {{-- <p>{!! str_limit($post->content, 100, '...') !!}</p> --}}
                         </div>
                     @endforeach
                 </div>
