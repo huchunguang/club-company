@@ -16,6 +16,7 @@ Route::group(['middleware' => 'auth:web'], function(){
     // 文章
     Route::get('/posts', '\App\Http\Controllers\PostController@index');
     Route::get('/posts/create', '\App\Http\Controllers\PostController@create');
+    Route::get('/posts/{post}/delete', '\App\Http\Controllers\PostController@delete');
     Route::post('/posts', '\App\Http\Controllers\PostController@store');
     Route::get('/posts/search', '\App\Http\Controllers\PostController@search');
     Route::get('/posts/{post}', '\App\Http\Controllers\PostController@show');
