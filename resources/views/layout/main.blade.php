@@ -27,9 +27,10 @@
 
     <div class="row">
     @yield("content")
-    @include("layout.sidebar")
+            @include("layout.sidebar")
     
     </div><!-- /.row -->
+    
 </div>
 <script src="{{asset('js/app.js')}}"></script>
 <script src="{{asset('js/wangEditor.min.js')}}"></script>

@@ -364,6 +364,7 @@ class ComposerStaticInita2c44dc62e0f7ae865d8d6f4c2e4be8e
         'CreatePasswordResetsTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
         'CreatePermissionAndRoles' => __DIR__ . '/../..' . '/database/migrations/2017_04_09_100358_create_permission_and_roles.php',
         'CreatePostsTable' => __DIR__ . '/../..' . '/database/migrations/2017_03_26_233534_create_posts_table.php',
+        'CreateSessionsTable' => __DIR__ . '/../..' . '/database/migrations/2017_10_23_141904_create_sessions_table.php',
         'CreateTopicsTable' => __DIR__ . '/../..' . '/database/migrations/2017_04_06_162830_create_topics_table.php',
         'CreateUsersTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_000000_create_users_table.php',
         'CreateZanTable' => __DIR__ . '/../..' . '/database/migrations/2017_04_04_112227_create_zan_table.php',
